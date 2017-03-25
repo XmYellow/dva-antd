@@ -1,7 +1,6 @@
 import React from 'react';
 import { connect } from 'dva';
 import ProductList from '../components/ProductList';
-import Nav from '../components/Nav';
 import MainLayout from  './../components/MainLayout/MainLayout'
 
 const Products = ({ dispatch, products,location }) => {
